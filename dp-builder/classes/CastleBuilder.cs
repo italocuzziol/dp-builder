@@ -8,7 +8,7 @@ namespace dp_builder.dp_builder
     /// This class specifies single characteristics and follows how I build
     /// /// (it is HouseBuilder's sibling)
     /// </summary>
-    class CastleBuilder : Builder
+    class CastleBuilder : IBuilder
     {
     }
 }
