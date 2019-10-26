@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace dp_builder.dp_builder
+namespace dp_builder.classes
 {
     /// <summary>
     /// This class specifies single characteristics and follows how I build
@@ -17,11 +17,11 @@ namespace dp_builder.dp_builder
             this.building = new Building();
         }
 
-        public void buildOwner() { building.setOwner("Dracula"); }
-        public void buildLocation() { building.setLocation("Mountain"); }
-        public void buildBasement() { building.setBasement("Concrete"); }
-        public void buildStructure() { building.setStructure("Bricks"); }
-        public void buildCeiling() { building.setCeiling("Roof tiles"); }
+        public void buildOwner() { building.setOwner("Villager"); }
+        public void buildLocation() { building.setLocation("Village"); }
+        public void buildBasement() { building.setBasement("Wooden Poles"); }
+        public void buildStructure() { building.setStructure("Wood"); }
+        public void buildCeiling() { building.setCeiling("Wood and Straw"); }
         public Building getBuilding() { return this.building; }
     }
 }
