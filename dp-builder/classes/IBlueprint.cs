@@ -5,9 +5,9 @@ using System.Text;
 namespace dp_builder.dp_builder
 {
     /// <summary>
-    /// This class specifies the way how I do a product
+    /// This interface specifies the way how I do a product
     /// </summary>
-    class Blueprint
+    interface IBlueprint
     {
     }
 }
