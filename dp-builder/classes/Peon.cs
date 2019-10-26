@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace dp_builder.dp_builder
+namespace dp_builder.classes
 {
     /// <summary>
     /// This class is not actually part of the builder pattern but it helps to centralize the execution of specific builders
@@ -12,7 +12,7 @@ namespace dp_builder.dp_builder
 
         private IBuilder builder;
 
-        public Peon(IBuilder builder)
+        public void setBuilding(IBuilder builder)
         {
             this.builder = builder;
         }

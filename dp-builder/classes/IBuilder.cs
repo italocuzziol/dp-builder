@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace dp_builder.dp_builder
+namespace dp_builder.classes
 {
     /// <summary>
     /// This interface specifies how I build the product

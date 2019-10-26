@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace dp_builder.dp_builder
+namespace dp_builder.classes
 {
     /// <summary>
     /// This interface specifies the way how I do a product
@@ -15,7 +15,6 @@ namespace dp_builder.dp_builder
         public void setBasement(string basement);
         public void setStructure(string structure);
         public void setCeiling(string ceiling);
-        public void setInterior(string interior);
 
     }
 }
