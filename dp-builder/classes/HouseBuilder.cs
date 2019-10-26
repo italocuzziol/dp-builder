@@ -5,9 +5,10 @@ using System.Text;
 namespace dp_builder.dp_builder
 {
     /// <summary>
-    /// This class specifies the generic product that follows the way I do
+    /// This class specifies single characteristics and follows how I build
+    /// (it is CastleBuilder's sibling)
     /// </summary>
-    class Building : Blueprint
+    class HouseBuilder : IBuilder
     {
     }
 }
