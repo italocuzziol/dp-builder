@@ -10,5 +10,18 @@ namespace dp_builder.dp_builder
     /// </summary>
     class HouseBuilder : IBuilder
     {
+        private Building building;
+
+        public HouseBuilder()
+        {
+            this.building = new Building();
+        }
+
+        public void buildOwner() { building.setOwner("Dracula"); }
+        public void buildLocation() { building.setLocation("Mountain"); }
+        public void buildBasement() { building.setBasement("Concrete"); }
+        public void buildStructure() { building.setStructure("Bricks"); }
+        public void buildCeiling() { building.setCeiling("Roof tiles"); }
+        public Building getBuilding() { return this.building; }
     }
 }
