@@ -9,5 +9,26 @@ namespace dp_builder.dp_builder
     /// </summary>
     class Peon
     {
+
+        private IBuilder builder;
+
+        public Peon(IBuilder builder)
+        {
+            this.builder = builder;
+        }
+
+        public void constructBuilding()
+        {
+            this.builder.buildBasement();
+            this.builder.buildCeiling();
+            this.builder.buildLocation();
+            this.builder.buildOwner();
+            this.builder.buildStructure();
+        }
+
+        public Building getBuilding()
+        {
+            return this.builder.getBuilding();
+        }
     }
 }
